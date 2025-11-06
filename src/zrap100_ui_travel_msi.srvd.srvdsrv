@@ -1,0 +1,12 @@
+@EndUserText: {
+  label: 'SDef: ZRAP100_C_TRAVELTP_MSI'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZRAP100_C_TRAVELTP_MSI'
+  }
+}
+define service ZRAP100_UI_TRAVEL_MSI
+  provider contracts odata_v4_ui {
+  expose ZRAP100_C_TRAVELTP_MSI as Travel;
+}
